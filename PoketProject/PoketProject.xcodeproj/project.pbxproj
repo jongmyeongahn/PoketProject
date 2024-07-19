@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EAD75F72C48D6B700A01123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD75F62C48D6B700A01123 /* AppDelegate.swift */; };
+		8EAD75FB2C48D6B700A01123 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD75FA2C48D6B700A01123 /* ViewController.swift */; };
+		8EAD76012C48D6B700A01123 /* PoketProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD75FF2C48D6B700A01123 /* PoketProject.xcdatamodeld */; };
+		8EAD76032C48D6B800A01123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EAD76022C48D6B800A01123 /* Assets.xcassets */; };
+		8EAD76062C48D6B800A01123 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8EAD76052C48D6B800A01123 /* Base */; };
+		8EAD760E2C48D9C200A01123 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD760D2C48D9C200A01123 /* TableViewCell.swift */; };
+		8EAD76112C48DABD00A01123 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8EAD76102C48DABD00A01123 /* SnapKit */; };
+		8EAD76152C48DFF700A01123 /* addViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD76142C48DFF700A01123 /* addViewController.swift */; };
+		8EAD76172C48F41800A01123 /* NewFriedAddList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD76162C48F41800A01123 /* NewFriedAddList.swift */; };
+		8EAD76202C4977F600A01123 /* PhoneBook+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD761E2C4977F600A01123 /* PhoneBook+CoreDataClass.swift */; };
+		8EAD76212C4977F600A01123 /* PhoneBook+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD761F2C4977F600A01123 /* PhoneBook+CoreDataProperties.swift */; };
+		8EAD76232C4979B500A01123 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD76222C4979B500A01123 /* CoreData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8EAD75F32C48D6B700A01123 /* PoketProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoketProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EAD75F62C48D6B700A01123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EAD75FA2C48D6B700A01123 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EAD76002C48D6B700A01123 /* PoketProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PoketProject.xcdatamodel; sourceTree = "<group>"; };
+		8EAD76022C48D6B800A01123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EAD76052C48D6B800A01123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EAD76072C48D6B800A01123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EAD760D2C48D9C200A01123 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		8EAD76142C48DFF700A01123 /* addViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addViewController.swift; sourceTree = "<group>"; };
+		8EAD76162C48F41800A01123 /* NewFriedAddList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFriedAddList.swift; sourceTree = "<group>"; };
+		8EAD761E2C4977F600A01123 /* PhoneBook+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhoneBook+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8EAD761F2C4977F600A01123 /* PhoneBook+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhoneBook+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8EAD76222C4979B500A01123 /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EAD75F02C48D6B700A01123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EAD76112C48DABD00A01123 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EAD75EA2C48D6B700A01123 = {
+			isa = PBXGroup;
+			children = (
+				8EAD761E2C4977F600A01123 /* PhoneBook+CoreDataClass.swift */,
+				8EAD761F2C4977F600A01123 /* PhoneBook+CoreDataProperties.swift */,
+				8EAD75F52C48D6B700A01123 /* PoketProject */,
+				8EAD75F42C48D6B700A01123 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EAD75F42C48D6B700A01123 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EAD75F32C48D6B700A01123 /* PoketProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EAD75F52C48D6B700A01123 /* PoketProject */ = {
+			isa = PBXGroup;
+			children = (
+				8EAD75F62C48D6B700A01123 /* AppDelegate.swift */,
+				8EAD75FA2C48D6B700A01123 /* ViewController.swift */,
+				8EAD76142C48DFF700A01123 /* addViewController.swift */,
+				8EAD76022C48D6B800A01123 /* Assets.xcassets */,
+				8EAD76042C48D6B800A01123 /* LaunchScreen.storyboard */,
+				8EAD76072C48D6B800A01123 /* Info.plist */,
+				8EAD75FF2C48D6B700A01123 /* PoketProject.xcdatamodeld */,
+				8EAD760D2C48D9C200A01123 /* TableViewCell.swift */,
+				8EAD76162C48F41800A01123 /* NewFriedAddList.swift */,
+				8EAD76222C4979B500A01123 /* CoreData.swift */,
+			);
+			path = PoketProject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EAD75F22C48D6B700A01123 /* PoketProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EAD760A2C48D6B800A01123 /* Build configuration list for PBXNativeTarget "PoketProject" */;
+			buildPhases = (
+				8EAD75EF2C48D6B700A01123 /* Sources */,
+				8EAD75F02C48D6B700A01123 /* Frameworks */,
+				8EAD75F12C48D6B700A01123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoketProject;
+			packageProductDependencies = (
+				8EAD76102C48DABD00A01123 /* SnapKit */,
+			);
+			productName = PoketProject;
+			productReference = 8EAD75F32C48D6B700A01123 /* PoketProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EAD75EB2C48D6B700A01123 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8EAD75F22C48D6B700A01123 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 8EAD75EE2C48D6B700A01123 /* Build configuration list for PBXProject "PoketProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EAD75EA2C48D6B700A01123;
+			packageReferences = (
+				8EAD760F2C48DABD00A01123 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 8EAD75F42C48D6B700A01123 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EAD75F22C48D6B700A01123 /* PoketProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EAD75F12C48D6B700A01123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EAD76032C48D6B800A01123 /* Assets.xcassets in Resources */,
+				8EAD76062C48D6B800A01123 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EAD75EF2C48D6B700A01123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EAD75FB2C48D6B700A01123 /* ViewController.swift in Sources */,
+				8EAD76172C48F41800A01123 /* NewFriedAddList.swift in Sources */,
+				8EAD760E2C48D9C200A01123 /* TableViewCell.swift in Sources */,
+				8EAD75F72C48D6B700A01123 /* AppDelegate.swift in Sources */,
+				8EAD76232C4979B500A01123 /* CoreData.swift in Sources */,
+				8EAD76152C48DFF700A01123 /* addViewController.swift in Sources */,
+				8EAD76012C48D6B700A01123 /* PoketProject.xcdatamodeld in Sources */,
+				8EAD76202C4977F600A01123 /* PhoneBook+CoreDataClass.swift in Sources */,
+				8EAD76212C4977F600A01123 /* PhoneBook+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8EAD76042C48D6B800A01123 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EAD76052C48D6B800A01123 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EAD76082C48D6B800A01123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EAD76092C48D6B800A01123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EAD760B2C48D6B800A01123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W5U24W8HRS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PoketProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = crossfit.PoketProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EAD760C2C48D6B800A01123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W5U24W8HRS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PoketProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = crossfit.PoketProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EAD75EE2C48D6B700A01123 /* Build configuration list for PBXProject "PoketProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EAD76082C48D6B800A01123 /* Debug */,
+				8EAD76092C48D6B800A01123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EAD760A2C48D6B800A01123 /* Build configuration list for PBXNativeTarget "PoketProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EAD760B2C48D6B800A01123 /* Debug */,
+				8EAD760C2C48D6B800A01123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8EAD760F2C48DABD00A01123 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8EAD76102C48DABD00A01123 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8EAD760F2C48DABD00A01123 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		8EAD75FF2C48D6B700A01123 /* PoketProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8EAD76002C48D6B700A01123 /* PoketProject.xcdatamodel */,
+			);
+			currentVersion = 8EAD76002C48D6B700A01123 /* PoketProject.xcdatamodel */;
+			path = PoketProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8EAD75EB2C48D6B700A01123 /* Project object */;
+}
